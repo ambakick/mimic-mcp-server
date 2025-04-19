@@ -141,7 +141,7 @@ MIT License — see `LICENSE`.
 If you use this code or results, please cite:
 
 ```
-Menon S.K., N. (2025). MCP Server × PostgreSQL on MIMIC‑IV: productivity and performance comparison. Georgia Tech CS 8803 Final Project Report.
+Menon S.K., N. (2025). MCP Server × PostgreSQL on MIMIC‑IV: productivity and performance comparison. Georgia Tech CS 6423 Final Project Report.
 ```
 
 ---
