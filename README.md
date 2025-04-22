@@ -105,28 +105,17 @@ Multiple runs (default = 30) are aggregated into CSV under `benchmarks/results/`
 
 ---
 
-## 7. Reproducing Paper Figures
-
-```bash
-jupyter lab notebooks/03_make_plots.ipynb
-```
-
-Generates latency histograms and developer‑effort bar charts used in the final report.
-
----
-
-## 8. Key Results (Preview)
+## 7. Key Results (Preview)
 
 | Query                        | Direct SQL |    MCP Server |  Δ (ms) |   Δ % |
 | ---------------------------- | ---------: | ------------: | ------: | ----: |
 | `COUNT(*)` on `emar_detail`  | 101,550 ms | **67,560 ms** | −33,990 | −33 % |
 | LOC to implement workload #1 |         68 |        **23** |     −45 | −66 % |
 
-Full tables in `benchmarks/results/final_summary.csv`.
 
 ---
 
-## 9. Future Work
+## 8. Future Work
 
 - Enable Entra ID + RBAC and re‑benchmark connection latency.
 - Add pgvector semantic‑search benchmark via a custom MCP tool.
@@ -134,7 +123,7 @@ Full tables in `benchmarks/results/final_summary.csv`.
 
 ---
 
-## 10. License & Citation
+## 9. License & Citation
 
 MIT License — see `LICENSE`.
 
@@ -146,8 +135,8 @@ Menon S.K., N. (2025). MCP Server × PostgreSQL on MIMIC‑IV: productivity and 
 
 ---
 
-## 11. Acknowledgements
+## 10. Acknowledgements
 
 - PhysioNet for access to the MIMIC‑IV dataset
-- Azure Database for PostgreSQL product team
+- Azure Database for PostgreSQL
 - Anthropic for the MCP specification and Claude Desktop tooling
